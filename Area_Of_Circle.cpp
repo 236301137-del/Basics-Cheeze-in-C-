@@ -8,6 +8,7 @@ cout<<"Enter Radius:";
  float radius;
  cin>>radius;
  float area = 3.14 * radius * radius;
+ cout<<"Area Of Circle is; ";
  cout<<area<<endl;
  return 0;
 }
