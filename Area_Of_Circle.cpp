@@ -1,7 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-float radius = 4.99;
-float area = 3.14 * radius * radius;
-cout<<area<<endl;
+// float radius = 4.99;
+// float area = 3.14 * radius * radius;
+// cout<<area<<endl;
+cout<<"Enter Radius:";
+ float radius;
+ cin>>radius;
+ float area = 3.14 * radius * radius;
+ cout<<area<<endl;
+ return 0;
 }
